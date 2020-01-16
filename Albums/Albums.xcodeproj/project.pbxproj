@@ -58,8 +58,9 @@
 		E61B667323D002B9007FE89A /* Albums */ = {
 			isa = PBXGroup;
 			children = (
-				E61B668D23D0034B007FE89A /* Model Controller */,
 				E61B668C23D00344007FE89A /* Model */,
+				E61B668D23D0034B007FE89A /* Model Controllers */,
+				E61B668E23D003DB007FE89A /* ViewControllers */,
 				E61B668823D002D9007FE89A /* Storyboards */,
 				E61B668923D002EF007FE89A /* Resources */,
 				E61B668223D002BA007FE89A /* Info.plist */,
@@ -103,11 +104,18 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E61B668D23D0034B007FE89A /* Model Controller */ = {
+		E61B668D23D0034B007FE89A /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Model Controller";
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		E61B668E23D003DB007FE89A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
